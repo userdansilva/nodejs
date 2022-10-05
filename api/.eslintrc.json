@@ -56,6 +56,15 @@
           "match": true
         }
       }
+    ],
+    "no-useless-constructor": "off",
+    "no-empty-function": [
+      "error",
+      {
+        "allow": [
+          "constructors"
+        ]
+      }
     ]
   }
 }
